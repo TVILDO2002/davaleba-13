@@ -1,0 +1,71 @@
+.container{
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.16);
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 0;
+}
+.header-wrapper ul{
+    display: flex;
+    gap: 2.8rem;
+}
+.header-wrapper li:nth-child(4){
+    margin-right: 8.5rem;
+}
+.header-wrapper a{
+    color: #434343;
+}
+footer{
+    background-color: #EE4967;
+    border: 1px solid #707070;
+    padding: 4.8em 0 1.18em 0;
+}
+.footer-wrapper{
+    display: flex;
+    gap: 2.5rem;
+}
+.footer-wrapper a, .footer-wrapper{
+    color: #fff;
+}
+.footer-wrapper li{
+    margin-top: 0.6rem;
+    font-size: 0.875em;
+}
+.media-links{
+    display: flex;
+    gap: 1.9rem;
+}
+.footer-left-div{
+    margin-right: 8.75rem;
+}
+.footer-left-div form{
+    position: relative;
+    margin: 1.5em 0 0 0;
+}
+.footer-left-div form input{
+    border-radius: 6px;
+    padding: 1em;
+}
+.footer-left-div form button{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    cursor: pointer;
+}
+.site-logo{
+    margin-top: 4.3rem;
+}
+.appstore-logo{
+    margin-top: 5.6rem;
+    cursor: pointer;
+}
+.footer-right-div ul li:nth-child(6){
+    margin-top: 2.5rem;
+}
