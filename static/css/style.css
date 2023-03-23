@@ -15,6 +15,50 @@ body{
     font-size: 1.4rem;
     color: #434343;
 }
+/********** styling modal **********/
+.modal-btn{
+    background-color: #EE4967;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+.modal-link{
+    margin-top: 1rem;
+    font-size: 2em;
+    color: #EE4967;
+    margin-right: 2rem;
+}
+
+.modal-wrapper{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(15, 58, 246, 0.5);
+    padding: 5rem;
+    display: none;
+}
+.window{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    background-color: #FFFFFF;
+}
+.window h2{
+    font-size: 4em;
+    margin: 2rem auto;
+}
+.window p{
+    font-size: 2rem;
+}
+.close{
+    position: absolute;
+    left: 90%;
+    top: 0;
+}
+.active{
+    display: block;
+}
+
  /************  styling header ***************/
 .header-wrapper{
     display: flex;
