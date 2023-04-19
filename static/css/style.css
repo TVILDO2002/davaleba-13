@@ -340,9 +340,11 @@ body{
     font-size: 20px;
     margin-bottom: 50px;
 }
+.about-f-img{
+    width: 60%;
+}
 .about-f-img img{
-    width: 758px;
-    height: 503px;
+    width: 100%;
 }
 .insurance-type-wrapper{
     margin-top: 75px;
